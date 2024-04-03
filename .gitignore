@@ -87,3 +87,4 @@ target/
 
 # Documents not binary
 docs/
+*.csv
