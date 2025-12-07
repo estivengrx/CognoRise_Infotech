@@ -10,7 +10,13 @@ This internship program spans 30 days, from **March 20, 2024**, to **April 20, 2
 
 ---
 
+Before using the project, ensure you have the necessary API credentials from Kaggle to download datasets. Follow these steps to set up your Kaggle API credentials:
+
+- Place your `kaggle.json` file in the `~/.config/kaggle/` directory (Linux/Mac) or `C:\Users\<YourUsername>\.kaggle\` (Windows). Refer to [Kaggle API documentation](https://www.kaggle.com/docs/api) for more details.
+
 ## 🎯 Tasks I will be involved in 🎯
+
+Note: each notebook takes approximately 10 minutes to run completely, depending on your machine's performance.
 
 - **Task 2: Credit Card Fraud Detection** 🕵️‍♂️
   
@@ -29,7 +35,6 @@ This internship program spans 30 days, from **March 20, 2024**, to **April 20, 2
 ## 📁 Repository Structure 📁
 
 - `data/`: This directory contains all the datasets used in the tasks. The raw data can be found in the `raw/` subdirectory. Due to size constraints, the raw data is not displayed in this repository, but the code is automated to save the data in this folder.
-- `docs/`: This directory is for documentation related to the project.
 - `models/`: This directory is for storing trained machine learning models. Due to size constraints, the models are not saved in this repository, but the code is automated to save the models in this folder.
 - `notebooks/`: This directory contains Jupyter notebooks for each task.
 - `reports/`: This directory contains reports generated from the tasks, these are data profiling reports and task reports made using ydata_profiling Python library.
@@ -55,14 +60,3 @@ jupyter notebook
 ```
 
 You can now open the notebook for each task and start exploring my work!
-
----
-
-## 📚 Resources 📚
-
-- [Python](https://www.python.org/)
-- [Jupyter Notebook](https://jupyter.org/)
-- [Pandas](https://pandas.pydata.org/)
-- [Scikit-learn](https://scikit-learn.org/)
-- [Matplotlib](https://matplotlib.org/)
-- [Seaborn](https://seaborn.pydata.org/)
